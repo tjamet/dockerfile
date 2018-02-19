@@ -1,8 +1,4 @@
-# dockerfile
-
-[![Docker](https://img.shields.io/badge/dockerhub-dockerfile-22B8EB.svg)](https://hub.docker.com/r/dependencies/dockerfile/)
-[![Build Status](https://travis-ci.org/dependencies-io/dockerfile.svg?branch=master)](https://travis-ci.org/dependencies-io/dockerfile)
-[![license](https://img.shields.io/github/license/dependencies-io/dockerfile.svg)](https://github.com/dependencies-io/dockerfile/blob/master/LICENSE)
+# dockerfile [![Build Status](https://travis-ci.org/dependencies-io/dockerfile.svg?branch=master)](https://travis-ci.org/dependencies-io/dockerfile)
 
 A [dependencies.io](https://www.dependencies.io) component that...
 
