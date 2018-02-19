@@ -1,0 +1,2116 @@
+{
+  "manifests": {
+    "Dockerfile": {
+      "current": {
+        "dependencies": {
+          "dependencies/collector-python-pip": {
+            "available": [
+              {
+                "name": "latest"
+              },
+              {
+                "name": "0.1.0"
+              },
+              {
+                "name": "0.2.0"
+              },
+              {
+                "name": "0.3.0"
+              },
+              {
+                "name": "0.3.1"
+              },
+              {
+                "name": "0.3.2"
+              },
+              {
+                "name": "0.4.0"
+              },
+              {
+                "name": "0.4.2"
+              },
+              {
+                "name": "0.4.3"
+              },
+              {
+                "name": "0.4.4"
+              },
+              {
+                "name": "0.4.5"
+              }
+            ],
+            "constraint": "1.0",
+            "source": "dockerhub"
+          },
+          "python": {
+            "available": [
+              {
+                "name": "latest"
+              },
+              {
+                "name": "2"
+              },
+              {
+                "name": "2-alpine"
+              },
+              {
+                "name": "2-alpine3.4"
+              },
+              {
+                "name": "2-alpine3.6"
+              },
+              {
+                "name": "2-alpine3.7"
+              },
+              {
+                "name": "2-jessie"
+              },
+              {
+                "name": "2-onbuild"
+              },
+              {
+                "name": "2-slim"
+              },
+              {
+                "name": "2-slim-jessie"
+              },
+              {
+                "name": "2-slim-stretch"
+              },
+              {
+                "name": "2-stretch"
+              },
+              {
+                "name": "2-wheezy"
+              },
+              {
+                "name": "2-windowsservercore"
+              },
+              {
+                "name": "2-windowsservercore-1709"
+              },
+              {
+                "name": "2-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "2.7"
+              },
+              {
+                "name": "2.7-alpine"
+              },
+              {
+                "name": "2.7-alpine3.4"
+              },
+              {
+                "name": "2.7-alpine3.6"
+              },
+              {
+                "name": "2.7-alpine3.7"
+              },
+              {
+                "name": "2.7-jessie"
+              },
+              {
+                "name": "2.7-onbuild"
+              },
+              {
+                "name": "2.7-slim"
+              },
+              {
+                "name": "2.7-slim-jessie"
+              },
+              {
+                "name": "2.7-slim-stretch"
+              },
+              {
+                "name": "2.7-stretch"
+              },
+              {
+                "name": "2.7-wheezy"
+              },
+              {
+                "name": "2.7-windowsservercore"
+              },
+              {
+                "name": "2.7-windowsservercore-1709"
+              },
+              {
+                "name": "2.7-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "2.7.10"
+              },
+              {
+                "name": "2.7.10-onbuild"
+              },
+              {
+                "name": "2.7.10-slim"
+              },
+              {
+                "name": "2.7.10-wheezy"
+              },
+              {
+                "name": "2.7.11"
+              },
+              {
+                "name": "2.7.11-alpine"
+              },
+              {
+                "name": "2.7.11-onbuild"
+              },
+              {
+                "name": "2.7.11-slim"
+              },
+              {
+                "name": "2.7.11-wheezy"
+              },
+              {
+                "name": "2.7.12"
+              },
+              {
+                "name": "2.7.12-alpine"
+              },
+              {
+                "name": "2.7.12-onbuild"
+              },
+              {
+                "name": "2.7.12-slim"
+              },
+              {
+                "name": "2.7.12-wheezy"
+              },
+              {
+                "name": "2.7.12-windowsservercore"
+              },
+              {
+                "name": "2.7.13"
+              },
+              {
+                "name": "2.7.13-alpine"
+              },
+              {
+                "name": "2.7.13-alpine3.4"
+              },
+              {
+                "name": "2.7.13-alpine3.6"
+              },
+              {
+                "name": "2.7.13-jessie"
+              },
+              {
+                "name": "2.7.13-onbuild"
+              },
+              {
+                "name": "2.7.13-slim"
+              },
+              {
+                "name": "2.7.13-stretch"
+              },
+              {
+                "name": "2.7.13-wheezy"
+              },
+              {
+                "name": "2.7.13-windowsservercore"
+              },
+              {
+                "name": "2.7.14"
+              },
+              {
+                "name": "2.7.14-alpine"
+              },
+              {
+                "name": "2.7.14-alpine3.4"
+              },
+              {
+                "name": "2.7.14-alpine3.6"
+              },
+              {
+                "name": "2.7.14-alpine3.7"
+              },
+              {
+                "name": "2.7.14-jessie"
+              },
+              {
+                "name": "2.7.14-onbuild"
+              },
+              {
+                "name": "2.7.14-slim"
+              },
+              {
+                "name": "2.7.14-slim-jessie"
+              },
+              {
+                "name": "2.7.14-slim-stretch"
+              },
+              {
+                "name": "2.7.14-stretch"
+              },
+              {
+                "name": "2.7.14-wheezy"
+              },
+              {
+                "name": "2.7.14-windowsservercore"
+              },
+              {
+                "name": "2.7.14-windowsservercore-1709"
+              },
+              {
+                "name": "2.7.14-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "2.7.7"
+              },
+              {
+                "name": "2.7.8"
+              },
+              {
+                "name": "2.7.8-onbuild"
+              },
+              {
+                "name": "2.7.8-slim"
+              },
+              {
+                "name": "2.7.8-wheezy"
+              },
+              {
+                "name": "2.7.9"
+              },
+              {
+                "name": "2.7.9-onbuild"
+              },
+              {
+                "name": "2.7.9-slim"
+              },
+              {
+                "name": "2.7.9-wheezy"
+              },
+              {
+                "name": "3"
+              },
+              {
+                "name": "3-alpine"
+              },
+              {
+                "name": "3-alpine3.4"
+              },
+              {
+                "name": "3-alpine3.6"
+              },
+              {
+                "name": "3-alpine3.7"
+              },
+              {
+                "name": "3-jessie"
+              },
+              {
+                "name": "3-onbuild"
+              },
+              {
+                "name": "3-slim"
+              },
+              {
+                "name": "3-slim-jessie"
+              },
+              {
+                "name": "3-slim-stretch"
+              },
+              {
+                "name": "3-stretch"
+              },
+              {
+                "name": "3-wheezy"
+              },
+              {
+                "name": "3-windowsservercore"
+              },
+              {
+                "name": "3-windowsservercore-1709"
+              },
+              {
+                "name": "3-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.2"
+              },
+              {
+                "name": "3.2-onbuild"
+              },
+              {
+                "name": "3.2-slim"
+              },
+              {
+                "name": "3.2-wheezy"
+              },
+              {
+                "name": "3.2.6"
+              },
+              {
+                "name": "3.2.6-onbuild"
+              },
+              {
+                "name": "3.2.6-slim"
+              },
+              {
+                "name": "3.2.6-wheezy"
+              },
+              {
+                "name": "3.3"
+              },
+              {
+                "name": "3.3-alpine"
+              },
+              {
+                "name": "3.3-alpine3.4"
+              },
+              {
+                "name": "3.3-jessie"
+              },
+              {
+                "name": "3.3-onbuild"
+              },
+              {
+                "name": "3.3-rc"
+              },
+              {
+                "name": "3.3-rc-alpine"
+              },
+              {
+                "name": "3.3-rc-alpine3.4"
+              },
+              {
+                "name": "3.3-rc-jessie"
+              },
+              {
+                "name": "3.3-rc-onbuild"
+              },
+              {
+                "name": "3.3-rc-slim"
+              },
+              {
+                "name": "3.3-rc-wheezy"
+              },
+              {
+                "name": "3.3-slim"
+              },
+              {
+                "name": "3.3-wheezy"
+              },
+              {
+                "name": "3.3.5"
+              },
+              {
+                "name": "3.3.5-onbuild"
+              },
+              {
+                "name": "3.3.6"
+              },
+              {
+                "name": "3.3.6-alpine"
+              },
+              {
+                "name": "3.3.6-alpine3.4"
+              },
+              {
+                "name": "3.3.6-jessie"
+              },
+              {
+                "name": "3.3.6-onbuild"
+              },
+              {
+                "name": "3.3.6-slim"
+              },
+              {
+                "name": "3.3.6-wheezy"
+              },
+              {
+                "name": "3.3.7"
+              },
+              {
+                "name": "3.3.7-alpine"
+              },
+              {
+                "name": "3.3.7-alpine3.4"
+              },
+              {
+                "name": "3.3.7-jessie"
+              },
+              {
+                "name": "3.3.7-onbuild"
+              },
+              {
+                "name": "3.3.7-slim"
+              },
+              {
+                "name": "3.3.7-wheezy"
+              },
+              {
+                "name": "3.3.7rc1"
+              },
+              {
+                "name": "3.3.7rc1-alpine"
+              },
+              {
+                "name": "3.3.7rc1-alpine3.4"
+              },
+              {
+                "name": "3.3.7rc1-jessie"
+              },
+              {
+                "name": "3.3.7rc1-onbuild"
+              },
+              {
+                "name": "3.3.7rc1-slim"
+              },
+              {
+                "name": "3.3.7rc1-wheezy"
+              },
+              {
+                "name": "3.4"
+              },
+              {
+                "name": "3.4-alpine"
+              },
+              {
+                "name": "3.4-alpine3.4"
+              },
+              {
+                "name": "3.4-jessie"
+              },
+              {
+                "name": "3.4-onbuild"
+              },
+              {
+                "name": "3.4-slim"
+              },
+              {
+                "name": "3.4-slim-jessie"
+              },
+              {
+                "name": "3.4-wheezy"
+              },
+              {
+                "name": "3.4.1"
+              },
+              {
+                "name": "3.4.1-onbuild"
+              },
+              {
+                "name": "3.4.2"
+              },
+              {
+                "name": "3.4.2-onbuild"
+              },
+              {
+                "name": "3.4.2-slim"
+              },
+              {
+                "name": "3.4.2-wheezy"
+              },
+              {
+                "name": "3.4.3"
+              },
+              {
+                "name": "3.4.3-onbuild"
+              },
+              {
+                "name": "3.4.3-slim"
+              },
+              {
+                "name": "3.4.3-wheezy"
+              },
+              {
+                "name": "3.4.4"
+              },
+              {
+                "name": "3.4.4-alpine"
+              },
+              {
+                "name": "3.4.4-onbuild"
+              },
+              {
+                "name": "3.4.4-slim"
+              },
+              {
+                "name": "3.4.4-wheezy"
+              },
+              {
+                "name": "3.4.5"
+              },
+              {
+                "name": "3.4.5-alpine"
+              },
+              {
+                "name": "3.4.5-onbuild"
+              },
+              {
+                "name": "3.4.5-slim"
+              },
+              {
+                "name": "3.4.5-wheezy"
+              },
+              {
+                "name": "3.4.6"
+              },
+              {
+                "name": "3.4.6-alpine"
+              },
+              {
+                "name": "3.4.6-alpine3.4"
+              },
+              {
+                "name": "3.4.6-jessie"
+              },
+              {
+                "name": "3.4.6-onbuild"
+              },
+              {
+                "name": "3.4.6-slim"
+              },
+              {
+                "name": "3.4.6-wheezy"
+              },
+              {
+                "name": "3.4.7"
+              },
+              {
+                "name": "3.4.7-alpine"
+              },
+              {
+                "name": "3.4.7-alpine3.4"
+              },
+              {
+                "name": "3.4.7-jessie"
+              },
+              {
+                "name": "3.4.7-onbuild"
+              },
+              {
+                "name": "3.4.7-slim"
+              },
+              {
+                "name": "3.4.7-slim-jessie"
+              },
+              {
+                "name": "3.4.7-wheezy"
+              },
+              {
+                "name": "3.4.8"
+              },
+              {
+                "name": "3.4.8-alpine"
+              },
+              {
+                "name": "3.4.8-alpine3.4"
+              },
+              {
+                "name": "3.4.8-jessie"
+              },
+              {
+                "name": "3.4.8-onbuild"
+              },
+              {
+                "name": "3.4.8-slim"
+              },
+              {
+                "name": "3.4.8-slim-jessie"
+              },
+              {
+                "name": "3.4.8-wheezy"
+              },
+              {
+                "name": "3.5"
+              },
+              {
+                "name": "3.5-alpine"
+              },
+              {
+                "name": "3.5-alpine3.4"
+              },
+              {
+                "name": "3.5-jessie"
+              },
+              {
+                "name": "3.5-onbuild"
+              },
+              {
+                "name": "3.5-slim"
+              },
+              {
+                "name": "3.5-slim-jessie"
+              },
+              {
+                "name": "3.5-windowsservercore"
+              },
+              {
+                "name": "3.5-windowsservercore-1709"
+              },
+              {
+                "name": "3.5-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.5.0"
+              },
+              {
+                "name": "3.5.0-onbuild"
+              },
+              {
+                "name": "3.5.0-slim"
+              },
+              {
+                "name": "3.5.0b3"
+              },
+              {
+                "name": "3.5.0b3-onbuild"
+              },
+              {
+                "name": "3.5.0b3-slim"
+              },
+              {
+                "name": "3.5.1"
+              },
+              {
+                "name": "3.5.1-alpine"
+              },
+              {
+                "name": "3.5.1-onbuild"
+              },
+              {
+                "name": "3.5.1-slim"
+              },
+              {
+                "name": "3.5.2"
+              },
+              {
+                "name": "3.5.2-alpine"
+              },
+              {
+                "name": "3.5.2-onbuild"
+              },
+              {
+                "name": "3.5.2-slim"
+              },
+              {
+                "name": "3.5.2-windowsservercore"
+              },
+              {
+                "name": "3.5.3"
+              },
+              {
+                "name": "3.5.3-alpine"
+              },
+              {
+                "name": "3.5.3-alpine3.4"
+              },
+              {
+                "name": "3.5.3-jessie"
+              },
+              {
+                "name": "3.5.3-onbuild"
+              },
+              {
+                "name": "3.5.3-slim"
+              },
+              {
+                "name": "3.5.3-windowsservercore"
+              },
+              {
+                "name": "3.5.4"
+              },
+              {
+                "name": "3.5.4-alpine"
+              },
+              {
+                "name": "3.5.4-alpine3.4"
+              },
+              {
+                "name": "3.5.4-jessie"
+              },
+              {
+                "name": "3.5.4-onbuild"
+              },
+              {
+                "name": "3.5.4-slim"
+              },
+              {
+                "name": "3.5.4-slim-jessie"
+              },
+              {
+                "name": "3.5.4-windowsservercore"
+              },
+              {
+                "name": "3.5.4-windowsservercore-1709"
+              },
+              {
+                "name": "3.5.4-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.5.5"
+              },
+              {
+                "name": "3.5.5-alpine"
+              },
+              {
+                "name": "3.5.5-alpine3.4"
+              },
+              {
+                "name": "3.5.5-jessie"
+              },
+              {
+                "name": "3.5.5-onbuild"
+              },
+              {
+                "name": "3.5.5-slim"
+              },
+              {
+                "name": "3.5.5-slim-jessie"
+              },
+              {
+                "name": "3.6"
+              },
+              {
+                "name": "3.6-alpine"
+              },
+              {
+                "name": "3.6-alpine3.4"
+              },
+              {
+                "name": "3.6-alpine3.6"
+              },
+              {
+                "name": "3.6-alpine3.7"
+              },
+              {
+                "name": "3.6-jessie"
+              },
+              {
+                "name": "3.6-onbuild"
+              },
+              {
+                "name": "3.6-rc"
+              },
+              {
+                "name": "3.6-rc-alpine"
+              },
+              {
+                "name": "3.6-rc-alpine3.6"
+              },
+              {
+                "name": "3.6-rc-onbuild"
+              },
+              {
+                "name": "3.6-rc-slim"
+              },
+              {
+                "name": "3.6-rc-windowsservercore"
+              },
+              {
+                "name": "3.6-slim"
+              },
+              {
+                "name": "3.6-slim-jessie"
+              },
+              {
+                "name": "3.6-slim-stretch"
+              },
+              {
+                "name": "3.6-stretch"
+              },
+              {
+                "name": "3.6-windowsservercore"
+              },
+              {
+                "name": "3.6-windowsservercore-1709"
+              },
+              {
+                "name": "3.6-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.6.0"
+              },
+              {
+                "name": "3.6.0-alpine"
+              },
+              {
+                "name": "3.6.0-onbuild"
+              },
+              {
+                "name": "3.6.0-slim"
+              },
+              {
+                "name": "3.6.0-windowsservercore"
+              },
+              {
+                "name": "3.6.0a2"
+              },
+              {
+                "name": "3.6.0a2-alpine"
+              },
+              {
+                "name": "3.6.0a2-onbuild"
+              },
+              {
+                "name": "3.6.0a2-slim"
+              },
+              {
+                "name": "3.6.0a3"
+              },
+              {
+                "name": "3.6.0a3-alpine"
+              },
+              {
+                "name": "3.6.0a3-onbuild"
+              },
+              {
+                "name": "3.6.0a3-slim"
+              },
+              {
+                "name": "3.6.0a4"
+              },
+              {
+                "name": "3.6.0a4-alpine"
+              },
+              {
+                "name": "3.6.0a4-onbuild"
+              },
+              {
+                "name": "3.6.0a4-slim"
+              },
+              {
+                "name": "3.6.0a4-windowsservercore"
+              },
+              {
+                "name": "3.6.0b1"
+              },
+              {
+                "name": "3.6.0b1-alpine"
+              },
+              {
+                "name": "3.6.0b1-onbuild"
+              },
+              {
+                "name": "3.6.0b1-slim"
+              },
+              {
+                "name": "3.6.0b2"
+              },
+              {
+                "name": "3.6.0b2-alpine"
+              },
+              {
+                "name": "3.6.0b2-onbuild"
+              },
+              {
+                "name": "3.6.0b2-slim"
+              },
+              {
+                "name": "3.6.0b2-windowsservercore"
+              },
+              {
+                "name": "3.6.0b3"
+              },
+              {
+                "name": "3.6.0b3-alpine"
+              },
+              {
+                "name": "3.6.0b3-onbuild"
+              },
+              {
+                "name": "3.6.0b3-slim"
+              },
+              {
+                "name": "3.6.0b3-windowsservercore"
+              },
+              {
+                "name": "3.6.0b4"
+              },
+              {
+                "name": "3.6.0b4-alpine"
+              },
+              {
+                "name": "3.6.0b4-onbuild"
+              },
+              {
+                "name": "3.6.0b4-slim"
+              },
+              {
+                "name": "3.6.0b4-windowsservercore"
+              },
+              {
+                "name": "3.6.0rc1"
+              },
+              {
+                "name": "3.6.0rc1-alpine"
+              },
+              {
+                "name": "3.6.0rc1-onbuild"
+              },
+              {
+                "name": "3.6.0rc1-slim"
+              },
+              {
+                "name": "3.6.0rc1-windowsservercore"
+              },
+              {
+                "name": "3.6.0rc2"
+              },
+              {
+                "name": "3.6.0rc2-alpine"
+              },
+              {
+                "name": "3.6.0rc2-onbuild"
+              },
+              {
+                "name": "3.6.0rc2-slim"
+              },
+              {
+                "name": "3.6.0rc2-windowsservercore"
+              },
+              {
+                "name": "3.6.1"
+              },
+              {
+                "name": "3.6.1-alpine"
+              },
+              {
+                "name": "3.6.1-alpine3.6"
+              },
+              {
+                "name": "3.6.1-onbuild"
+              },
+              {
+                "name": "3.6.1-slim"
+              },
+              {
+                "name": "3.6.1-windowsservercore"
+              },
+              {
+                "name": "3.6.2"
+              },
+              {
+                "name": "3.6.2-alpine"
+              },
+              {
+                "name": "3.6.2-alpine3.4"
+              },
+              {
+                "name": "3.6.2-alpine3.6"
+              },
+              {
+                "name": "3.6.2-jessie"
+              },
+              {
+                "name": "3.6.2-onbuild"
+              },
+              {
+                "name": "3.6.2-slim"
+              },
+              {
+                "name": "3.6.2-stretch"
+              },
+              {
+                "name": "3.6.2-windowsservercore"
+              },
+              {
+                "name": "3.6.2rc1"
+              },
+              {
+                "name": "3.6.2rc1-alpine"
+              },
+              {
+                "name": "3.6.2rc1-alpine3.6"
+              },
+              {
+                "name": "3.6.2rc1-onbuild"
+              },
+              {
+                "name": "3.6.2rc1-slim"
+              },
+              {
+                "name": "3.6.2rc1-windowsservercore"
+              },
+              {
+                "name": "3.6.2rc2"
+              },
+              {
+                "name": "3.6.2rc2-alpine"
+              },
+              {
+                "name": "3.6.2rc2-alpine3.6"
+              },
+              {
+                "name": "3.6.2rc2-onbuild"
+              },
+              {
+                "name": "3.6.2rc2-slim"
+              },
+              {
+                "name": "3.6.2rc2-windowsservercore"
+              },
+              {
+                "name": "3.6.3"
+              },
+              {
+                "name": "3.6.3-alpine"
+              },
+              {
+                "name": "3.6.3-alpine3.4"
+              },
+              {
+                "name": "3.6.3-alpine3.6"
+              },
+              {
+                "name": "3.6.3-alpine3.7"
+              },
+              {
+                "name": "3.6.3-jessie"
+              },
+              {
+                "name": "3.6.3-onbuild"
+              },
+              {
+                "name": "3.6.3-slim"
+              },
+              {
+                "name": "3.6.3-slim-jessie"
+              },
+              {
+                "name": "3.6.3-slim-stretch"
+              },
+              {
+                "name": "3.6.3-stretch"
+              },
+              {
+                "name": "3.6.3-windowsservercore"
+              },
+              {
+                "name": "3.6.3-windowsservercore-1709"
+              },
+              {
+                "name": "3.6.3-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.6.4"
+              },
+              {
+                "name": "3.6.4-alpine"
+              },
+              {
+                "name": "3.6.4-alpine3.4"
+              },
+              {
+                "name": "3.6.4-alpine3.6"
+              },
+              {
+                "name": "3.6.4-alpine3.7"
+              },
+              {
+                "name": "3.6.4-jessie"
+              },
+              {
+                "name": "3.6.4-onbuild"
+              },
+              {
+                "name": "3.6.4-slim"
+              },
+              {
+                "name": "3.6.4-slim-jessie"
+              },
+              {
+                "name": "3.6.4-slim-stretch"
+              },
+              {
+                "name": "3.6.4-stretch"
+              },
+              {
+                "name": "3.6.4-windowsservercore"
+              },
+              {
+                "name": "3.6.4-windowsservercore-1709"
+              },
+              {
+                "name": "3.6.4-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.7-rc"
+              },
+              {
+                "name": "3.7-rc-alpine"
+              },
+              {
+                "name": "3.7-rc-alpine3.6"
+              },
+              {
+                "name": "3.7-rc-alpine3.7"
+              },
+              {
+                "name": "3.7-rc-slim"
+              },
+              {
+                "name": "3.7-rc-slim-stretch"
+              },
+              {
+                "name": "3.7-rc-stretch"
+              },
+              {
+                "name": "3.7-rc-windowsservercore"
+              },
+              {
+                "name": "3.7-rc-windowsservercore-1709"
+              },
+              {
+                "name": "3.7-rc-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.7.0a1"
+              },
+              {
+                "name": "3.7.0a1-alpine"
+              },
+              {
+                "name": "3.7.0a1-alpine3.6"
+              },
+              {
+                "name": "3.7.0a1-slim"
+              },
+              {
+                "name": "3.7.0a1-stretch"
+              },
+              {
+                "name": "3.7.0a1-windowsservercore"
+              },
+              {
+                "name": "3.7.0a2"
+              },
+              {
+                "name": "3.7.0a2-alpine"
+              },
+              {
+                "name": "3.7.0a2-alpine3.6"
+              },
+              {
+                "name": "3.7.0a2-slim"
+              },
+              {
+                "name": "3.7.0a2-slim-stretch"
+              },
+              {
+                "name": "3.7.0a2-stretch"
+              },
+              {
+                "name": "3.7.0a2-windowsservercore"
+              },
+              {
+                "name": "3.7.0a2-windowsservercore-1709"
+              },
+              {
+                "name": "3.7.0a2-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.7.0a3"
+              },
+              {
+                "name": "3.7.0a3-alpine"
+              },
+              {
+                "name": "3.7.0a3-alpine3.6"
+              },
+              {
+                "name": "3.7.0a3-alpine3.7"
+              },
+              {
+                "name": "3.7.0a3-slim"
+              },
+              {
+                "name": "3.7.0a3-slim-stretch"
+              },
+              {
+                "name": "3.7.0a3-stretch"
+              },
+              {
+                "name": "3.7.0a3-windowsservercore"
+              },
+              {
+                "name": "3.7.0a3-windowsservercore-1709"
+              },
+              {
+                "name": "3.7.0a3-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.7.0a4"
+              },
+              {
+                "name": "3.7.0a4-alpine"
+              },
+              {
+                "name": "3.7.0a4-alpine3.7"
+              },
+              {
+                "name": "3.7.0a4-slim"
+              },
+              {
+                "name": "3.7.0a4-slim-stretch"
+              },
+              {
+                "name": "3.7.0a4-stretch"
+              },
+              {
+                "name": "3.7.0a4-windowsservercore"
+              },
+              {
+                "name": "3.7.0a4-windowsservercore-1709"
+              },
+              {
+                "name": "3.7.0a4-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "3.7.0b1"
+              },
+              {
+                "name": "3.7.0b1-alpine"
+              },
+              {
+                "name": "3.7.0b1-alpine3.7"
+              },
+              {
+                "name": "3.7.0b1-slim"
+              },
+              {
+                "name": "3.7.0b1-slim-stretch"
+              },
+              {
+                "name": "3.7.0b1-stretch"
+              },
+              {
+                "name": "3.7.0b1-windowsservercore"
+              },
+              {
+                "name": "3.7.0b1-windowsservercore-1709"
+              },
+              {
+                "name": "3.7.0b1-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "alpine"
+              },
+              {
+                "name": "alpine3.4"
+              },
+              {
+                "name": "alpine3.6"
+              },
+              {
+                "name": "alpine3.7"
+              },
+              {
+                "name": "jessie"
+              },
+              {
+                "name": "onbuild"
+              },
+              {
+                "name": "rc"
+              },
+              {
+                "name": "rc-alpine"
+              },
+              {
+                "name": "rc-alpine3.6"
+              },
+              {
+                "name": "rc-alpine3.7"
+              },
+              {
+                "name": "rc-onbuild"
+              },
+              {
+                "name": "rc-slim"
+              },
+              {
+                "name": "rc-slim-stretch"
+              },
+              {
+                "name": "rc-stretch"
+              },
+              {
+                "name": "rc-windowsservercore"
+              },
+              {
+                "name": "rc-windowsservercore-1709"
+              },
+              {
+                "name": "rc-windowsservercore-ltsc2016"
+              },
+              {
+                "name": "slim"
+              },
+              {
+                "name": "slim-jessie"
+              },
+              {
+                "name": "slim-stretch"
+              },
+              {
+                "name": "stretch"
+              },
+              {
+                "name": "wheezy"
+              },
+              {
+                "name": "windowsservercore"
+              },
+              {
+                "name": "windowsservercore-1709"
+              },
+              {
+                "name": "windowsservercore-ltsc2016"
+              }
+            ],
+            "constraint": "3.6-alpine",
+            "source": "dockerhub"
+          },
+          "ubuntu": {
+            "available": [
+              {
+                "name": "latest"
+              },
+              {
+                "name": "10.04"
+              },
+              {
+                "name": "12.04"
+              },
+              {
+                "name": "12.04.5"
+              },
+              {
+                "name": "12.10"
+              },
+              {
+                "name": "13.04"
+              },
+              {
+                "name": "13.10"
+              },
+              {
+                "name": "14.04"
+              },
+              {
+                "name": "14.04.1"
+              },
+              {
+                "name": "14.04.2"
+              },
+              {
+                "name": "14.04.3"
+              },
+              {
+                "name": "14.04.4"
+              },
+              {
+                "name": "14.04.5"
+              },
+              {
+                "name": "14.10"
+              },
+              {
+                "name": "15.04"
+              },
+              {
+                "name": "15.10"
+              },
+              {
+                "name": "16.04"
+              },
+              {
+                "name": "16.10"
+              },
+              {
+                "name": "17.04"
+              },
+              {
+                "name": "17.10"
+              },
+              {
+                "name": "18.04"
+              },
+              {
+                "name": "artful"
+              },
+              {
+                "name": "artful-20170511.1"
+              },
+              {
+                "name": "artful-20170601"
+              },
+              {
+                "name": "artful-20170619"
+              },
+              {
+                "name": "artful-20170716"
+              },
+              {
+                "name": "artful-20170728"
+              },
+              {
+                "name": "artful-20170826"
+              },
+              {
+                "name": "artful-20170916"
+              },
+              {
+                "name": "artful-20171006"
+              },
+              {
+                "name": "artful-20171019"
+              },
+              {
+                "name": "artful-20171116"
+              },
+              {
+                "name": "artful-20180112"
+              },
+              {
+                "name": "artful-20180123"
+              },
+              {
+                "name": "bionic"
+              },
+              {
+                "name": "bionic-20171114"
+              },
+              {
+                "name": "bionic-20171214"
+              },
+              {
+                "name": "bionic-20171220"
+              },
+              {
+                "name": "bionic-20180125"
+              },
+              {
+                "name": "devel"
+              },
+              {
+                "name": "lucid"
+              },
+              {
+                "name": "precise"
+              },
+              {
+                "name": "precise-20150212"
+              },
+              {
+                "name": "precise-20150228.11"
+              },
+              {
+                "name": "precise-20150320"
+              },
+              {
+                "name": "precise-20150427"
+              },
+              {
+                "name": "precise-20150528"
+              },
+              {
+                "name": "precise-20150612"
+              },
+              {
+                "name": "precise-20150626"
+              },
+              {
+                "name": "precise-20150729"
+              },
+              {
+                "name": "precise-20150813"
+              },
+              {
+                "name": "precise-20150924"
+              },
+              {
+                "name": "precise-20151020"
+              },
+              {
+                "name": "precise-20151028"
+              },
+              {
+                "name": "precise-20151208"
+              },
+              {
+                "name": "precise-20160108"
+              },
+              {
+                "name": "precise-20160217"
+              },
+              {
+                "name": "precise-20160225"
+              },
+              {
+                "name": "precise-20160303"
+              },
+              {
+                "name": "precise-20160311"
+              },
+              {
+                "name": "precise-20160318"
+              },
+              {
+                "name": "precise-20160330"
+              },
+              {
+                "name": "precise-20160425"
+              },
+              {
+                "name": "precise-20160503"
+              },
+              {
+                "name": "precise-20160526"
+              },
+              {
+                "name": "precise-20160624"
+              },
+              {
+                "name": "precise-20160707"
+              },
+              {
+                "name": "precise-20160819"
+              },
+              {
+                "name": "precise-20160923.1"
+              },
+              {
+                "name": "precise-20161102"
+              },
+              {
+                "name": "precise-20161123"
+              },
+              {
+                "name": "precise-20161209"
+              },
+              {
+                "name": "precise-20170214"
+              },
+              {
+                "name": "precise-20170331"
+              },
+              {
+                "name": "quantal"
+              },
+              {
+                "name": "raring"
+              },
+              {
+                "name": "rolling"
+              },
+              {
+                "name": "saucy"
+              },
+              {
+                "name": "trusty"
+              },
+              {
+                "name": "trusty-20150218.1"
+              },
+              {
+                "name": "trusty-20150228.11"
+              },
+              {
+                "name": "trusty-20150320"
+              },
+              {
+                "name": "trusty-20150427"
+              },
+              {
+                "name": "trusty-20150528"
+              },
+              {
+                "name": "trusty-20150612"
+              },
+              {
+                "name": "trusty-20150630"
+              },
+              {
+                "name": "trusty-20150730"
+              },
+              {
+                "name": "trusty-20150806"
+              },
+              {
+                "name": "trusty-20150814"
+              },
+              {
+                "name": "trusty-20151001"
+              },
+              {
+                "name": "trusty-20151009"
+              },
+              {
+                "name": "trusty-20151021"
+              },
+              {
+                "name": "trusty-20151028"
+              },
+              {
+                "name": "trusty-20151208"
+              },
+              {
+                "name": "trusty-20151218"
+              },
+              {
+                "name": "trusty-20160119"
+              },
+              {
+                "name": "trusty-20160217"
+              },
+              {
+                "name": "trusty-20160226"
+              },
+              {
+                "name": "trusty-20160302"
+              },
+              {
+                "name": "trusty-20160315"
+              },
+              {
+                "name": "trusty-20160317"
+              },
+              {
+                "name": "trusty-20160323"
+              },
+              {
+                "name": "trusty-20160405"
+              },
+              {
+                "name": "trusty-20160412"
+              },
+              {
+                "name": "trusty-20160424"
+              },
+              {
+                "name": "trusty-20160503.1"
+              },
+              {
+                "name": "trusty-20160526"
+              },
+              {
+                "name": "trusty-20160624"
+              },
+              {
+                "name": "trusty-20160711"
+              },
+              {
+                "name": "trusty-20160802"
+              },
+              {
+                "name": "trusty-20160819"
+              },
+              {
+                "name": "trusty-20160914"
+              },
+              {
+                "name": "trusty-20160923.1"
+              },
+              {
+                "name": "trusty-20161006"
+              },
+              {
+                "name": "trusty-20161101"
+              },
+              {
+                "name": "trusty-20161123"
+              },
+              {
+                "name": "trusty-20161214"
+              },
+              {
+                "name": "trusty-20170119"
+              },
+              {
+                "name": "trusty-20170214"
+              },
+              {
+                "name": "trusty-20170330"
+              },
+              {
+                "name": "trusty-20170602"
+              },
+              {
+                "name": "trusty-20170620"
+              },
+              {
+                "name": "trusty-20170719"
+              },
+              {
+                "name": "trusty-20170728"
+              },
+              {
+                "name": "trusty-20170817"
+              },
+              {
+                "name": "trusty-20171117"
+              },
+              {
+                "name": "trusty-20171207"
+              },
+              {
+                "name": "trusty-20180112"
+              },
+              {
+                "name": "trusty-20180123"
+              },
+              {
+                "name": "utopic"
+              },
+              {
+                "name": "utopic-20150211"
+              },
+              {
+                "name": "utopic-20150228.11"
+              },
+              {
+                "name": "utopic-20150319"
+              },
+              {
+                "name": "utopic-20150418"
+              },
+              {
+                "name": "utopic-20150427"
+              },
+              {
+                "name": "utopic-20150528"
+              },
+              {
+                "name": "utopic-20150612"
+              },
+              {
+                "name": "utopic-20150625"
+              },
+              {
+                "name": "vivid"
+              },
+              {
+                "name": "vivid-20150218"
+              },
+              {
+                "name": "vivid-20150309"
+              },
+              {
+                "name": "vivid-20150319.1"
+              },
+              {
+                "name": "vivid-20150421"
+              },
+              {
+                "name": "vivid-20150427"
+              },
+              {
+                "name": "vivid-20150528"
+              },
+              {
+                "name": "vivid-20150611"
+              },
+              {
+                "name": "vivid-20150802"
+              },
+              {
+                "name": "vivid-20150813"
+              },
+              {
+                "name": "vivid-20150930"
+              },
+              {
+                "name": "vivid-20151021"
+              },
+              {
+                "name": "vivid-20151106"
+              },
+              {
+                "name": "vivid-20151111"
+              },
+              {
+                "name": "vivid-20151208"
+              },
+              {
+                "name": "vivid-20160122"
+              },
+              {
+                "name": "wily"
+              },
+              {
+                "name": "wily-20150528.1"
+              },
+              {
+                "name": "wily-20150611"
+              },
+              {
+                "name": "wily-20150708"
+              },
+              {
+                "name": "wily-20150731"
+              },
+              {
+                "name": "wily-20150807"
+              },
+              {
+                "name": "wily-20150818"
+              },
+              {
+                "name": "wily-20150829"
+              },
+              {
+                "name": "wily-20151006"
+              },
+              {
+                "name": "wily-20151009"
+              },
+              {
+                "name": "wily-20151019"
+              },
+              {
+                "name": "wily-20151208"
+              },
+              {
+                "name": "wily-20160121"
+              },
+              {
+                "name": "wily-20160217"
+              },
+              {
+                "name": "wily-20160302"
+              },
+              {
+                "name": "wily-20160316"
+              },
+              {
+                "name": "wily-20160329"
+              },
+              {
+                "name": "wily-20160424"
+              },
+              {
+                "name": "wily-20160503"
+              },
+              {
+                "name": "wily-20160526"
+              },
+              {
+                "name": "wily-20160602"
+              },
+              {
+                "name": "wily-20160706"
+              },
+              {
+                "name": "xenial"
+              },
+              {
+                "name": "xenial-20151218.1"
+              },
+              {
+                "name": "xenial-20160119.1"
+              },
+              {
+                "name": "xenial-20160125"
+              },
+              {
+                "name": "xenial-20160217.2"
+              },
+              {
+                "name": "xenial-20160226"
+              },
+              {
+                "name": "xenial-20160303.1"
+              },
+              {
+                "name": "xenial-20160314.4"
+              },
+              {
+                "name": "xenial-20160317"
+              },
+              {
+                "name": "xenial-20160331.1"
+              },
+              {
+                "name": "xenial-20160422"
+              },
+              {
+                "name": "xenial-20160503"
+              },
+              {
+                "name": "xenial-20160525"
+              },
+              {
+                "name": "xenial-20160629"
+              },
+              {
+                "name": "xenial-20160706"
+              },
+              {
+                "name": "xenial-20160713"
+              },
+              {
+                "name": "xenial-20160809"
+              },
+              {
+                "name": "xenial-20160818"
+              },
+              {
+                "name": "xenial-20160914"
+              },
+              {
+                "name": "xenial-20160923.1"
+              },
+              {
+                "name": "xenial-20161010"
+              },
+              {
+                "name": "xenial-20161114"
+              },
+              {
+                "name": "xenial-20161121"
+              },
+              {
+                "name": "xenial-20161213"
+              },
+              {
+                "name": "xenial-20170119"
+              },
+              {
+                "name": "xenial-20170214"
+              },
+              {
+                "name": "xenial-20170410"
+              },
+              {
+                "name": "xenial-20170417.1"
+              },
+              {
+                "name": "xenial-20170510"
+              },
+              {
+                "name": "xenial-20170517.1"
+              },
+              {
+                "name": "xenial-20170619"
+              },
+              {
+                "name": "xenial-20170710"
+              },
+              {
+                "name": "xenial-20170802"
+              },
+              {
+                "name": "xenial-20170915"
+              },
+              {
+                "name": "xenial-20171006"
+              },
+              {
+                "name": "xenial-20171114"
+              },
+              {
+                "name": "xenial-20171201"
+              },
+              {
+                "name": "xenial-20180112.1"
+              },
+              {
+                "name": "xenial-20180123"
+              },
+              {
+                "name": "yakkety"
+              },
+              {
+                "name": "yakkety-20160708"
+              },
+              {
+                "name": "yakkety-20160717"
+              },
+              {
+                "name": "yakkety-20160806.1"
+              },
+              {
+                "name": "yakkety-20160826"
+              },
+              {
+                "name": "yakkety-20160919"
+              },
+              {
+                "name": "yakkety-20160923.1"
+              },
+              {
+                "name": "yakkety-20161013"
+              },
+              {
+                "name": "yakkety-20161104"
+              },
+              {
+                "name": "yakkety-20161121"
+              },
+              {
+                "name": "yakkety-20161213"
+              },
+              {
+                "name": "yakkety-20170104"
+              },
+              {
+                "name": "yakkety-20170224"
+              },
+              {
+                "name": "yakkety-20170327"
+              },
+              {
+                "name": "yakkety-20170517.1"
+              },
+              {
+                "name": "yakkety-20170619"
+              },
+              {
+                "name": "yakkety-20170704"
+              },
+              {
+                "name": "zesty"
+              },
+              {
+                "name": "zesty-20161129.1"
+              },
+              {
+                "name": "zesty-20161212"
+              },
+              {
+                "name": "zesty-20170118"
+              },
+              {
+                "name": "zesty-20170224"
+              },
+              {
+                "name": "zesty-20170411"
+              },
+              {
+                "name": "zesty-20170517.1"
+              },
+              {
+                "name": "zesty-20170619"
+              },
+              {
+                "name": "zesty-20170703"
+              },
+              {
+                "name": "zesty-20170913"
+              },
+              {
+                "name": "zesty-20170915"
+              },
+              {
+                "name": "zesty-20171114"
+              },
+              {
+                "name": "zesty-20171122"
+              }
+            ],
+            "constraint": "latest",
+            "source": "dockerhub"
+          }
+        }
+      }
+    }
+  }
+}

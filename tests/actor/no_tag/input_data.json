@@ -1,0 +1,26 @@
+{
+    "manifests": {
+        "Dockerfile": {
+            "current": {
+                "dependencies": {
+                    "ubuntu": {
+                        "source": "dockerhub",
+                        "constraint": "latest",
+                        "available": [
+                        ]
+                    }
+                }
+            },
+            "updated": {
+                "dependencies": {
+                    "ubuntu": {
+                        "source": "dockerhub",
+                        "constraint": "16.04",
+                        "available": [
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+cases:
+- name: latest_tag
+  type: actor
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/latest_tag/repo
+  input_data_path: tests/actor/latest_tag/input_data.json
+  output_data_path: tests/actor/latest_tag/expected_output_data.json
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff -x '.git' ${CWD}/tests/actor/latest_tag/repo_final/ ./
+
+- name: no_tag
+  type: actor
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/no_tag/repo
+  input_data_path: tests/actor/no_tag/input_data.json
+  output_data_path: tests/actor/no_tag/expected_output_data.json
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff -x '.git' ${CWD}/tests/actor/no_tag/repo_final/ ./
+
+- name: with_tag
+  type: actor
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/with_tag/repo
+  input_data_path: tests/actor/with_tag/input_data.json
+  output_data_path: tests/actor/with_tag/expected_output_data.json
+  tests:
+    - |
+        git checkout deps/update-0 && \
+        diff -x '.git' ${CWD}/tests/actor/with_tag/repo_final/ ./

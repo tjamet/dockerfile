@@ -1,0 +1,29 @@
+{
+  "PR #0": {
+    "dependencies": {
+      "manifests": {
+        "Dockerfile": {
+          "current": {
+            "dependencies": {
+              "ubuntu": {
+                "constraint": "14.04",
+                "source": "dockerhub"
+              }
+            }
+          },
+          "updated": {
+            "dependencies": {
+              "ubuntu": {
+                "constraint": "16.04",
+                "source": "dockerhub"
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "foo": "bar"
+    }
+  }
+}
