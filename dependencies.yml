@@ -2,3 +2,5 @@ version: 2
 collectors:
 - type: dockerfile
   path: Dockerfile
+  manifest_updates:
+    enabled: false
