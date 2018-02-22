@@ -1,4 +1,3 @@
-from os import path
 import re
 import sys
 from subprocess import run
@@ -67,7 +66,7 @@ def collect():
 
     manifest_output = {
         "manifests": {
-            path.relpath(dockerfile_path, '/repo'): {
+            dockerfile_path: {
                 "current": {
                     "dependencies": collected_dependencies
                 }
