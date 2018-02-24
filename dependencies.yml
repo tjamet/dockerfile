@@ -4,3 +4,5 @@ collectors:
   path: Dockerfile
   manifest_updates:
     enabled: false
+    
+- type: dependencies-component
