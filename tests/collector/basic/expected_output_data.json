@@ -1290,6 +1290,33 @@
                 "name": "3.7.0b1-windowsservercore-ltsc2016"
               },
               {
+                "name": "3.7.0b2"
+              },
+              {
+                "name": "3.7.0b2-alpine"
+              },
+              {
+                "name": "3.7.0b2-alpine3.7"
+              },
+              {
+                "name": "3.7.0b2-slim"
+              },
+              {
+                "name": "3.7.0b2-slim-stretch"
+              },
+              {
+                "name": "3.7.0b2-stretch"
+              },
+              {
+                "name": "3.7.0b2-windowsservercore"
+              },
+              {
+                "name": "3.7.0b2-windowsservercore-1709"
+              },
+              {
+                "name": "3.7.0b2-windowsservercore-ltsc2016"
+              },
+              {
                 "name": "alpine"
               },
               {
@@ -1473,6 +1500,9 @@
                 "name": "artful-20180123"
               },
               {
+                "name": "artful-20180227"
+              },
+              {
                 "name": "bionic"
               },
               {
@@ -1486,6 +1516,9 @@
               },
               {
                 "name": "bionic-20180125"
+              },
+              {
+                "name": "bionic-20180224"
               },
               {
                 "name": "devel"
@@ -1758,6 +1791,9 @@
                 "name": "trusty-20180123"
               },
               {
+                "name": "trusty-20180302"
+              },
+              {
                 "name": "utopic"
               },
               {
@@ -2014,6 +2050,9 @@
               },
               {
                 "name": "xenial-20180123"
+              },
+              {
+                "name": "xenial-20180228"
               },
               {
                 "name": "yakkety"
