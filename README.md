@@ -1,25 +1,22 @@
 # dockerfile [![Build Status](https://travis-ci.org/dependencies-io/dockerfile.svg?branch=master)](https://travis-ci.org/dependencies-io/dockerfile)
 
-A [dependencies.io](https://www.dependencies.io) component that...
+A [dependencies.io](https://www.dependencies.io) component that updates base images of Dockerfiles.
 
 ## Usage
 
-TODO plainly explain anything a user needs to know to use this (what settings
-are available, specifics about how it is going to work, etc.).
-
-### dependencies.yml
-
 ```yml
-TODO
+version: 2
+dependencies:
+- type: dockerfile
+  path: app/Dockerfile
 ```
 
-## Resources
-
-- TODO links to inspiration or helpful related resources
+There are also [additional settings available](https://github.com/dependencies-io/deps#dependenciesyml) for
+further customizing how updates are made.
 
 ## Support
 
-Any questions or issues with this specific component should be discussed in [GitHub
- issues](https://github.com/dependencies-io/dockerfile/issues).
- If there is private information which needs to be shared then you can instead
- use the [dependencies.io support](https://app.dependencies.io/support).
+Any questions or issues with this specific actor should be discussed in [GitHub
+issues](https://github.com/dependencies-io/dockerfile/issues). If there is
+private information which needs to be shared then you can instead use the
+private support channels in dependencies.io.
