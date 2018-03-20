@@ -6,3 +6,6 @@ dependencies:
     enabled: false
     
 - type: dependencies-component
+  settings:
+    github_labels:
+    - automerge
