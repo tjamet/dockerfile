@@ -13,7 +13,15 @@ def collect():
     collected_dependencies = {}
 
     with open(dockerfile_path, 'r') as f:
+        stages = []
+
         for line in f.readlines():
+
+            built_state_match_re = re.match('(FROM\s+.*)AS\s+([^\s]+)\s*$', line, re.IGNORECASE)
+            if built_state_match_re:
+                line = built_state_match_re.groups()[0]
+                stages.append(built_state_match_re.groups()[1])
+
             owner_repo_tag_match = re.match('FROM\s+([^\/\s:]*)/([^\/\s:]*):([^\/\s:]*)$', line, re.IGNORECASE)
             if owner_repo_tag_match:
                 owner = owner_repo_tag_match.groups()[0]
@@ -48,6 +56,10 @@ def collect():
             repo_match = re.match('FROM\s+([^\/\s:]*)$', line, re.IGNORECASE)
             if repo_match:
                 repo = repo_match.groups()[0]
+
+                if repo in stages:
+                    # if this is a stage built before
+                    continue
 
                 collected_dependencies[repo] = {
                     'constraint': 'latest',
