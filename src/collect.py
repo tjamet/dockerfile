@@ -17,12 +17,12 @@ def collect():
 
         for line in f.readlines():
 
-            built_state_match_re = re.match('(FROM\s+.*)AS\s+([^\s]+)\s*$', line, re.IGNORECASE)
+            built_state_match_re = re.match('(FROM\s+\S+)\s+AS\s+(\S+)\s*$', line, re.IGNORECASE)
             if built_state_match_re:
                 line = built_state_match_re.groups()[0]
                 stages.append(built_state_match_re.groups()[1])
 
-            owner_repo_tag_match = re.match('FROM\s+([^\/\s:]*)/([^\/\s:]*):([^\/\s:]*)$', line, re.IGNORECASE)
+            owner_repo_tag_match = re.match('FROM\s+(\S+)/(\S+):(\S+)\s*$', line, re.IGNORECASE)
             if owner_repo_tag_match:
                 owner = owner_repo_tag_match.groups()[0]
                 repo = owner_repo_tag_match.groups()[1]
@@ -33,7 +33,7 @@ def collect():
                 }
                 continue
 
-            owner_repo_match = re.match('FROM\s+([^\/\s:]*)/([^\/\s:]*)$', line, re.IGNORECASE)
+            owner_repo_match = re.match('FROM\s+(\S+)/(\S+)\s*$', line, re.IGNORECASE)
             if owner_repo_match:
                 owner = owner_repo_match.groups()[0]
                 repo = owner_repo_match.groups()[1]
@@ -43,7 +43,7 @@ def collect():
                 }
                 continue
 
-            repo_tag_match = re.match('FROM\s+([^\/\s:]*):([^\/\s:]*)$', line, re.IGNORECASE)
+            repo_tag_match = re.match('FROM\s+(\S+):(\S+)\s*$', line, re.IGNORECASE)
             if repo_tag_match:
                 repo = repo_tag_match.groups()[0]
                 tag = repo_tag_match.groups()[1]
@@ -53,7 +53,7 @@ def collect():
                 }
                 continue
 
-            repo_match = re.match('FROM\s+([^\/\s:]*)$', line, re.IGNORECASE)
+            repo_match = re.match('FROM\s+(\S+)\s*$', line, re.IGNORECASE)
             if repo_match:
                 repo = repo_match.groups()[0]
 
